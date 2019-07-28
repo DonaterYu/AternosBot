@@ -123,6 +123,7 @@ function bindEvents() {
   });
   client.on("chat", packet => {
     var jsonMsg = JSON.parse(packet.message);
+    if (process.env.debug) console.log(jsonMsg)
     if (!jsonMsg.extra && !jsonMsg.with) return;
     if (
       jsonMsg.extra &&
