@@ -10,6 +10,6 @@
   "license": "ISC",
   "dependencies": {
     "discord.js": "^11.5.1",
-    "minecraft-protocol": "^1.9.3"
+    "minecraft-protocol": "^1.9.4"
   }
 }
